@@ -1,0 +1,11 @@
+# Dependencias de Node (node_modules)
+node_modules/
+
+# Variables de entorno (archivos .env)
+.env
+.env.*
+
+# Cachés del sistema y editores
+.npm/
+.eslintcache
+.vscode/
