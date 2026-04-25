@@ -8,10 +8,10 @@ describe("Orange HRM Claims", () => {
   });
 
   //Nicolas
-  it("Nicolas", () => {});
+  it("TC013- Nicolas", () => {});
 
   //Johan
-  it("TC015-No permite asignar claim sin datos", () => {
+  it("TC014-No permite asignar claim sin datos", () => {
     cy.contains("Claim").click();
     cy.contains("Assign Claim").click();
     cy.get('button[type="submit"]').click();
@@ -22,5 +22,5 @@ describe("Orange HRM Claims", () => {
   });
 
   // Sebas
-  it("TC016-Sebas", () => {});
+  it("TC015-Sebas", () => {});
 });
