@@ -8,10 +8,10 @@ describe("Orange HRM Search in Directory", () => {
   });
 
   //Nicolas
-  it("TC011-Nicolas", () => { });
+  it("TC010-Nicolas", () => { });
 
   //Johan
-  it("TC012-No encuentra un empleado inexistente", () => {
+  it("TC011-No encuentra un empleado inexistente", () => {
     cy.contains("Directory").click();
     cy.get('input[placeholder="Type for hints..."]').type("EmpleadoFalso123");
     cy.contains("Search").click();
@@ -25,7 +25,7 @@ describe("Orange HRM Search in Directory", () => {
 
 
   // Sebas
-  it('TC013 - Debe encontrar un empleado existente por nombre', () => {
+  it('TC012 - Debe encontrar un empleado existente por nombre', () => {
     cy.contains('span', 'Directory').click();
     
     cy.get('input[placeholder="Type for hints..."]')

@@ -8,7 +8,7 @@ describe("Orange HRM Employees", () => {
     });
 
     //Nicolas
-    it("TC009 - Nicolas", () => { });
+    it("TC007 - Nicolas", () => { });
 
     //Johan
     it("TC008 - No permite crear empleado sin nombre", () => {
@@ -23,7 +23,7 @@ describe("Orange HRM Employees", () => {
     });
 
     // Sebas
-    it("TC010 - ", () => {
+    it("TC009 - ", () => {
         cy.fixture('users/luis-diaz').then((user) => {
             cy.createEmployee(user);
         });
